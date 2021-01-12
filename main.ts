@@ -1,5 +1,5 @@
 while (true) {
-    console.log("Light Level:" + input.soundLevel())
+    console.log("Sound Level:" + input.soundLevel())
     if (input.soundLevel() >= 20) {
         music.pewPew.play()
         music.magicWand.loop()
