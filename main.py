@@ -1,4 +1,3 @@
-while True:
-    print("Light Level:" + input.light_level())
-    if (input.light_level()) >= 20:
-        music.pew_pew.play()
+while True: 
+    music.set_volume(200)
+    music.play_melody("D# D# Bb F F D# D# Bb F F D# D# ^C G F D# D# G# G# G# D# D# Bb F F D# D# Bb F F D# D# ^C G F D# D# G# G# G# Bb Bb-Bb Bb G Bb Bb Bb-Bb ^D#-^D ^C G G G G G-G# G# G#-G# G# G G ^D# ^D#-^D# ^D# ^D ^D ^D ^D ^D ^D ^C ^C G G G G - G G# G# G# G# G#-G G G G Bb D# D G G-Bb D C G G G G-G G# G# G# G# G#-G G G Bb D# D G Bb D-C G G G G-G G# G# G# G# G-G G D# D# Bb-F F D# D# Bb F F D# D# ^C G F D# D# G#-G# G# D# D# Bb F F D# D# Bb - F - F D# D# ^C-G F D# D# ^C-G F Bb Bb-Bb Bb G Bb Bb Bb Bb ^D# ^C G G G G G G# G# G#-G# G# G G ^D# ^D#-^D# ^D# ^D ^D ^D ^D ^D ^D ^C ^C G G G G - G G# G# G# G# G#-G G G G Bb D# D G G-Bb D C G G G G-G G# G# G# G# G#-G G G Bb D# D G Bb D-C G G G G-G G# G# G# G# G#-G G ^D# ^D# ^D# ^D# ^F ^D ^D ^D ^D ^D ^D# ^C ^C ^C-^C ^C G G# ^C ^C ^C ^C ^D ^D# ^D# ^D# ^D# ^D# ^F ^D ^D ^D-^D ^D ^D# ^C G  G G - G F D# G#-G# G# G# G G",200)
